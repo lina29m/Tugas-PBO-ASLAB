@@ -135,9 +135,8 @@ class _FormMahasiswaPageState extends State<FormMahasiswaPage> {
                   keyboardType: TextInputType.emailAddress,
                   validator: (v) {
                     if (v == null || v.isEmpty) return 'Email harus diisi';
-                    // regex sederhana untuk cek format email
-                    if (!RegExp(r'^[\w\.-]+@[\w\.-]+\.\w+$').hasMatch(v)) {
-                      return 'Format email tidak valid';
+                    if (!v.endsWith('@unsika.ac.id')) {
+                      return 'Gunakan email @unsika.ac.id';
                     }
                     return null;
                   },

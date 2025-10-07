@@ -1,0 +1,23 @@
+# Flutter & Dart
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Platform build folders
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# VS Code & IDE
+.vscode/
+.idea/
+
+# Logs
+*.log

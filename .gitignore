@@ -21,3 +21,9 @@ web/
 
 # Logs
 *.log
+
+# Ignore Flutter build files
+build/
+**/ephemeral/
+*.dll
+*.pdb

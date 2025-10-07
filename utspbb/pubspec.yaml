@@ -1,0 +1,24 @@
+name: uts_ppb_5c
+description: UTS Praktikum Pemrograman Perangkat Bergerak - Kelas 5C
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.1.1
+  uuid: ^4.0.1
+  # optional: cached_network_image jika ingin caching gambar (tidak wajib)
+  # cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/foto.png

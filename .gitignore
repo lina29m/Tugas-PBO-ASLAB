@@ -1,0 +1,72 @@
+# ------------------------
+# Flutter & Dart
+# ------------------------
+.dart_tool/
+.packages
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+.pub-cache/
+
+# ------------------------
+# Build output (ignore semua hasil build)
+# ------------------------
+build/
+**/ephemeral/
+*.dll
+*.pdb
+*.exe
+
+# ------------------------
+# Platform build folders
+# ------------------------
+android/
+ios/
+linux/
+macos/
+windows/
+web/
+
+# ------------------------
+# IDE & Editor
+# ------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ------------------------
+# Miscellaneous
+# ------------------------
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ------------------------
+# Coverage & Reports
+# ------------------------
+coverage/
+*.lcov
+
+# ------------------------
+# Symbolication & Obfuscation
+# ------------------------
+app.*.symbols
+app.*.map.json
+
+# ------------------------
+# Flutter Docs (optional)
+# ------------------------
+doc/api/
+ios/Flutter/.last_build_id

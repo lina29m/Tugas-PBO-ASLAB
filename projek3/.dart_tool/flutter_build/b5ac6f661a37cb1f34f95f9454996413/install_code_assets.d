@@ -1,1 +1,0 @@
- C:\\Users\\romau\\MK\ Flutter\\flutter_windows_3.35.1-stable\\praktikum3\\projek3\\.dart_tool\\flutter_build\\b5ac6f661a37cb1f34f95f9454996413\\native_assets.json: 
